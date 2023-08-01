@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Signika+Negative:wght@400;600&display=swap"
+    rel="stylesheet">
+
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Adit Kr.'s Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Qualifications</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact me</a></li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, I am <span class="black">Adit</span>
+        <div>and I am a</div>
+        <span id="element"></span>
+      </div>
+
+      <div class="rightSection"><img src="dev2.jpg " alt=""></div>
+
+    </section>
+    <hr>
+    <h1 class="heading2">Qualifications</h1>
+    <div class="center-line"></div>
+    <div class="secondSection">
+
+      <div class="row-1">
+        <section>
+
+          <div class="details">
+            <span class="title">
+              <h3>Bachelor's of Computer Applications (BCA)</h3>
+            </span>
+            <span> (2019 - 2022)</span>
+            <h4>Maharaja Agrasen Himalayan Garhwal University</h4>
+          </div>
+          <div class="bottom">
+            <i>Completed with the total Percentage of 65.8%</i>
+          </div>
+        </section>
+      </div>
+      <br>
+      <br>
+      <div class="row-2">
+        <section>
+
+          <div class="details">
+            <span class="title">
+              <h3>12th</h3>
+            </span>
+            <span> (2015 - 2016)</span>
+            <h4>Chennai Sr. Secondary School</h4>
+          </div>
+          <div class="bottom">
+            <i>Completed with the total Percentage of 83%</i>
+          </div>
+        </section>
+      </div>
+      <br>
+      <br>
+      <div class="row-3">
+        <section>
+
+          <div class="details">
+            <span class="title">
+              <h3>10th</h3>
+            </span>
+            <span> (2013 - 2014)</span>
+            <h4>MRV Model School</h4>
+          </div>
+          <div class="bottom">
+            <i>Completed with the total Percentage of 74%</i>
+          </div>
+        </section>
+      </div>
+      <img class="newimg" src="dev3.png">
+    </div>
+
+    <div class="hr2"></div>
+    <h1 class="heading2">Projects</h1>
+    <div class="center-line2"></div>
+    <div class="thirdSection">
+
+      <br>
+      <br>
+
+      <h3 class="heading3">Calculator</h3>
+      <div class="calculator">
+        <input type="text" placeholder="0" id="inputBox">
+        <div>
+          <button class="operator">AC</button>
+          <button class="operator">DEL</button>
+          <button class="operator">%</button>
+          <button class="operator">/</button>
+        </div>
+        <div>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button class="operator">*</button>
+        </div>
+        <div>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button class="operator">-</button>
+        </div>
+        <div>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button class="operator">+</button>
+        </div>
+        <div>
+          <button>00</button>
+          <button>0</button>
+          <button>.</button>
+          <button class="operator">=</button>
+        </div>
+      </div>
+      <h3 class="heading4">Stopwatch</h3>
+      <div class="stopwatch">
+        <div class="timerDisplay">00 : 00 : 00</div>
+      </div>
+      <div class="commands">
+        <button id="stopBtn" class="btn">Stop</button>
+        <button id="startBtn"class="btn">Start</button>
+        <button id="resetBtn"class="btn">Reset</button>
+      </div>
+
+      <h3 class="heading5">Digital Clock</h3>
+      <div class="DigitalClock">
+        <div class="clock">
+          <span id="hour">00</span>
+          <span>:</span>
+          <span id="minutes">00</span>
+          <span >:</span>
+          <span id="second">00</span>
+          <span id="assign">AM</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hr3"></div>
+
+    <br>
+    <br>
+    
+
+  </main>
+  <br>
+  <br>
+
+  <script src="index.js"></script>
+  <script src="index2.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Java Developer', 'Web Developer'],
+      typeSpeed: 60,
+      loop: true,
+      backSpeed: 80,
+      startDelay: 1000,
+      backDelay: 1500,
+
+    });
+  </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,288 @@
+body {
+    background-color: rgb(51, 115, 150);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 21px;
+}
+
+.left {
+    font-size: 1.7rem;
+    width: 400px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.rightSection img {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.leftSection {
+    font-size: 2.8rem;
+    margin: 0 0 0 10px;
+
+
+}
+
+/**.leftSection div{
+    margin: 150px 0 0 8px ;
+    padding: 0;
+    width: 100%;**/
+
+.black {
+    color: black;
+    font-weight: 700;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: crimson;
+    font-size: 1.01rem;
+}
+
+#element {
+    font-weight: 700;
+    color: black;
+}
+
+main hr {
+    border: 0;
+    background: black;
+    height: 1.4px;
+    margin: 25px 80px;
+}
+
+
+.secondSection {
+    max-width: 30vw;
+    margin: 0 0 -190px 395px;
+    border-radius: 2px;
+
+}
+
+.secondSection .row-1 {
+    background-color: black;
+}
+
+.secondSection .row-2 {
+    background-color: black;
+}
+
+.secondSection .row-3 {
+    background-color: black;
+}
+
+.secondSection .newimg {
+    width: 455px;
+    position: relative;
+    left: 524px;
+    top: -368px;
+
+}
+
+.details {
+    margin: 10px;
+}
+
+
+.bottom {
+    margin: 0 0 0 10px;
+}
+
+.secondSection .details .title ::before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    background: black;
+    z-index: -1;
+    transform: rotate(45deg);
+
+}
+
+.secondSection .details .title ::before {
+    left: 383px;
+    margin: 8px;
+}
+
+.heading2 {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.center-line {
+    position: absolute;
+    height: 66%;
+    width: 4px;
+    background: white;
+    left: 25%;
+}
+.center-line2 {
+    position: absolute;
+    height: 98%;
+    width: 4px;
+    background: white;
+    left: 25%;
+}
+
+main .hr2 {
+    border: 0;
+    background: black;
+    height: 1.4px;
+    margin: 25px 80px;
+}
+
+.thirdSection .heading3 {
+    max-width: 12vw;
+    margin: auto;
+    position: absolute;
+    left: 16.5%;
+    font-size: 1.4vw;
+}
+.thirdSection .calculator {
+    margin: -50px 0px 0 23px;
+    background: black;
+}
+.thirdSection {
+    max-width: 30vw;
+    margin: 0 0 -190px 395px;
+    border-radius: 2px;
+}
+.calculator{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow:-0 3px 15px rgba(113, 115, 119, 0.5);
+
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white    ;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    border: none;
+    width: 74px;
+    height: 0px;
+    margin: 10px;
+    background: transparent;
+     color: white; 
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.operator{
+    color: greenyellow;
+}
+.heading4{
+    max-width: 12vw;
+    margin: 100px 0 0 0;
+    position: absolute;
+    left: 16.5%;
+    font-size: 1.4vw;
+}
+
+.stopwatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 85px 0px 0px 23px;
+    background-color: black;
+    padding: 20px 24px;
+    border-radius: 16px;
+
+}
+.timerDisplay{
+    font-size: 1.4vw;
+    font-weight: bold;
+
+}
+.commands{
+    display: flex;
+    justify-content: space-evenly;
+}
+.commands .btn{
+    background-color: greenyellow;
+}
+.DigitalClock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 85px 0px 0px 23px;
+    background-color: black;
+    padding: 20px 24px;
+    border-radius: 16px;
+    
+}
+.heading5{
+    max-width: 12vw;
+    margin: 100px 0 0 0;
+    position: absolute;
+    left: 15.2%;
+    font-size: 1.4vw;
+
+}
+.clock{
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+main .hr3 {
+    position: relative;
+    border: 0;
+    background: black;
+    height: 1.4px;
+    margin: 25px 80px;
+    top: 210px;
+}
+
